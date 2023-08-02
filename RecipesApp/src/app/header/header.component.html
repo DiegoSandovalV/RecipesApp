@@ -1,1 +1,35 @@
-<h1>Header</h1>
+<nav class="border-gray-200 bg-gray-200 flex">
+    <div class="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-2 m-0 ml-0 mr-0">
+        <a href="">
+            <img src="../../assets/logos/chefLogo.png" alt="RecipeAppImg" class="w-10  m-0">
+        </a>
+        <div class="hiden w-full">
+            <ul class="flex flex-row justify-around">
+                <li class="py-2 pl-3 pr-4">
+                    <a href="">Recipes</a>
+                </li>
+                <li class="py-2 pl-3 pr-4">
+                    <a href="">Shopping List</a>
+                </li>
+                <li class="">
+                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4">Manage <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                    </svg></button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                          <li>
+                            <a href="#" class="">Dashboard</a>
+                          </li>
+                          <li>
+                            <a href="#" class="">Settings</a>
+                          </li>
+                         
+                        </ul>
+                    </div>
+                </li>
+                <li>
+            </ul>
+        </div>
+    </div>
+</nav>
